@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <title>Landing Page</title>
+</head>
+
+<body>
+    <header id="header-section">
+        <div class="container">
+            <a href="#"><img src="./images/logo.svg" alt=""></a>
+            <h1>Modern Chairs Crafted with Love</h1>
+            <h2>We love creating high quality and comfortable chairs</h2>
+            <a href="#our-chairs" class="btn">Discover our chair selection</a>
+        </div>
+    </header>
+    <section id="our-chairs">
+        <div class="container">
+            <header>
+                <p class="intro">The selection</p>
+                <h3>Our Chairs</h3>
+                <p id="para">We mostly sell one-off items. That means that we make one-of-a-kind furniture pieces so whoever buys
+                    it will have a unique item.</p>
+            </header>
+
+            <div class="gallery">
+                <div>
+                    <img src="./images/furniture-1.jpg" alt="furniture-1">
+                    <p class="number">01</p>
+                    <h4>Tufted white leather sofa chair</h4>
+                    <p>This will fit perfectly in any beauty salon or modern home thanks to its timeless design.</p>
+                    <p>$289</p>
+                </div>
+
+                <div>
+                    <img src="./images/furniture-2.jpg" alt="furniture-2">
+                    <p class="number">02</p>
+                    <h4>Black and brown wooden chair</h4>
+                    <p>Both minimalistic and comfortable, this is a great choice for home or office.</p>
+                    <p>$99</p>
+                </div>
+
+                <div>
+                    <img src="./images/furniture-3.jpg" alt="furniture-3">
+                    <p class="number">03</p>
+                    <h4>Rustic wooden bar stool</h4>
+                    <p>Made from solid beech wood, this piece will fit nicely in your rustic kitchen.</p>
+                    <p>$139</p>
+                </div>
+            </div>
+            <p class="small">Interested in our productS? <a href="#contact-section">Send us a message</a> or <a href="#our-store">visit our store.</a>
+            </p>
+        </div>
+    </section>
+
+    <section id="contact-section" class="dark">
+        <div class="container small">
+            <header>
+                <p id="CU">contact us</p>
+                <h3>Let’s get in touch</h3>
+            </header>
+            <form action="#">
+                <div class="req-edit">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" required>
+                </div>
+                <div class="req-edit">
+                    <label for="Email">Email Address</label>
+                    <input type="email" id="Email" required>
+                </div>
+                <div class="req-edit">
+                    <label for="massage">Massage</label>
+                    <textarea name="massage" id="massage" required cols="30" rows="10"></textarea>
+                </div>
+                <div>
+                    <button id="btn">Send message</button>
+                    <p><em>fields are required. We’ll get back to you as soon as possible.</em></p>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <section id="our-store">
+        <div class="container">
+            <header>
+                <p class="intro">Visit our store</p class="intro">
+                <h3 class="large">(307) 555-0133</h3>
+                <p class="large">2972 Westheimer Rd. Santa Ana, Illinois 85486 </p>
+            </header>
+
+            <div class="social-icons">
+                <ul id="ul">
+                    <li>
+                        <a href="#"><img src="images/icon-twitter.svg" alt="twitter-icon"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="images/icon-instagram.svg" alt="instagram-icon"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="images/icon-facebook.svg" alt="facebook-icon"></a>
+                    </li>
+                </ul>
+
+
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container small">
+            &copy; Copyright 2023 | Piyush Kumar. All rights reserved. Built with <a href="#">WordPress</a> and <a
+                href="#">Elementor.</a>
+        </div>
+    </footer>
+
+</body>
+
+</html>
