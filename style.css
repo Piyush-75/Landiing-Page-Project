@@ -96,16 +96,9 @@ form button {
     width: 60%;
     max-width: 35rem;
 }
-/* #header-section,
-section {
-    margin-top: 13rem;
-    text-align: center;
-} */
 
-#header-section,section {
-    /* margin: 7rem 0 1rem 0; */
+#header-section, section {
     text-align: center;
-    /* margin-bottom: 13rem; */
     padding: 13rem 0 13rem 0;
 }
 #header-section h2 {
